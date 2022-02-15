@@ -1,15 +1,9 @@
 package TypeCastingPractice;
 
 public class TypeCastingMain {
-    public void wideningCasting(){
-        int a = 8;
-        float myfloat = a;
-        System.out.println(myfloat);
-    }
-    public void narrowingCasting(){
-       float mf = 3.1f;
-       int myint = (int)mf;
-        System.out.println(myint);
-
+    public static void main(String[] args) {
+        TypeCastingNotMain tcm = new TypeCastingNotMain();
+        tcm.wideningCasting();
+        tcm.narrowingCasting();
     }
 }
