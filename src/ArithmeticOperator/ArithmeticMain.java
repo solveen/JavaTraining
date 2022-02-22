@@ -1,5 +1,7 @@
 package ArithmeticOperator;
 
+import AccessModifier.AccessModifier;
+
 public class ArithmeticMain {
     public static void main(String[] args) {
         Arithmetic ao = new Arithmetic();
@@ -7,5 +9,9 @@ public class ArithmeticMain {
         ao.sub();
         ao.divide();
         ao.modulus();
+        AccessModifier accessModifier = new AccessModifier();
+        System.out.println("This is public variable from another package" + accessModifier.x);
+
     }
+
 }
