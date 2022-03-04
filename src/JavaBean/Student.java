@@ -4,7 +4,7 @@ public class Student {
     private int id = 1;
     private String name = "Solveen";
 
-    public Student(){
+    public Student(int i, String hello){
         System.out.println("Hello");
         System.out.println(id);
         System.out.println(name);
